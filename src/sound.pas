@@ -131,8 +131,8 @@ Bit0  Sound 1 on[1]/off[0]
 uses Classes, sysutils, sdl2, LazLoggerBase;
 
 const
-  SAMPLE_BUFFER_SIZE = 1024;
-  PlaybackFrequency = 44100;
+  SAMPLE_BUFFER_SIZE = 64;
+  PlaybackFrequency = 192000;
 
 type
   PSingle = ^Single;
